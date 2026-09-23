@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radha Clothing | Local Collection</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #bf4f74;
+      color: white;
+      padding: 20px 15px;
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 10px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #bf4f74;
+      font-weight: 600;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #bf4f74;
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .info {
+      background: #ffe6f0;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 40px;
+      font-size: 1.2rem;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgb(191 79 116 / 0.15);
+      width: 220px;
+      text-align: center;
+      padding-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgb(191 79 116 / 0.25);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+      height: 220px;
+    }
+    .product-name {
+      margin: 12px 0 5px 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #bf4f74;
+    }
+    .product-price {
+      font-weight: 600;
+      color: #444;
+      font-size: 1rem;
+    }
+    footer {
+      background: #bf4f74;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+    @media(max-width: 600px){
+      .product-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .product-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Radha Clothing
+</header>
+
+<main>
+  <section class="info">
+    <p>Exclusive collection for our local customers | Fixed price on all items ₹499 only</p>
+  </section>
+
+  <section>
+    <h2>T-Shirts</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=T-Shirt+1" alt="T-shirt 1" />
+        <div class="product-name">Classic Round Neck</div>
+        <div class="product-price">₹499</div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=T-Shirt+2" alt="T-shirt 2" />
+        <div class="product-name">Striped Casual</div>
+        <div class="product-price">₹499</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Shirts</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Shirt+1" alt="Shirt 1" />
+        <div class="product-name">Formal Light Blue</div>
+        <div class="product-price">₹499</div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Shirt+2" alt="Shirt 2" />
+        <div class="product-name">Casual Checkered</div>
+        <div class="product-price">₹499</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Designer Tops</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Designer+Top+1" alt="Designer Top 1" />
+        <div class="product-name">Floral Print</div>
+        <div class="product-price">₹499</div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Designer+Top+2" alt="Designer Top 2" />
+        <div class="product-name">Sleeveless Chic</div>
+        <div class="product-price">₹499</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fancy Pants</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Fancy+Pants+1" alt="Fancy Pants 1" />
+        <div class="product-name">Black Slim Fit</div>
+        <div class="product-price">₹499</div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Fancy+Pants+2" alt="Fancy Pants 2" />
+        <div class="product-name">Beige Trousers</div>
+        <div class="product-price">₹499</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Children's Wear</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Child+Wear+1" alt="Children's wear 1" />
+        <div class="product-name">Cute Cartoon Tee</div>
+        <div class="product-price">₹499</div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Child+Wear+2" alt="Children's wear 2" />
+        <div class="product-name">Comfy Cotton Pants</div>
+        <div class="product-price">₹499</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Radha Clothing | For local customers in Ahmedabad | Contact: +91 98765 43210
+</footer>
+
+</body>
+</html>
